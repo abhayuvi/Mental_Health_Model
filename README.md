@@ -6,8 +6,8 @@ This Repository is made to create a Mental Health Model which can analyse itself
 
 - Dataset used to train the mode is [Mental Health In Tech Survey](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey)
 - clone the repository and setup in your environment.
-- Run the reuirement.txt file . `pip install -r requirements.txt`
-- Get into the Directory . `cd mental_health`
+- Run the requirements.txt file . `pip install -r requirements.txt`
+- Get into the Directory . `cd Mental_Health_Model`
 - Run `streamlit run app.py`
 
 ## 📁 Project Directory Overview
