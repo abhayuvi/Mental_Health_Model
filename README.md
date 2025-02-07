@@ -9,6 +9,8 @@ This Repository is made to create a Mental Health Model which can analyse itself
 - Run the requirements.txt file . `pip install -r requirements.txt`
 - Get into the Directory . `cd Mental_Health_Model`
 - Run `streamlit run app.py`
+- To Run inference script , Run `python predict_mental_health.py`
+- Run `streamlit run app.py` to use web based UI.
 
 ## 📁 Project Directory Overview
 
@@ -33,6 +35,7 @@ This Repository is made to create a Mental Health Model which can analyse itself
 1. Logistic Regression
 2. Random Forest Classifier
 3. Neural Network
+- Further we used Logistic Regression model after the Evaluation because it outperformed all the evaluation metrics.
 
 ### Model Evaluation
 - Each model is evaluated using:
