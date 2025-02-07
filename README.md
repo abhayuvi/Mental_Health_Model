@@ -18,5 +18,29 @@ This Repository is made to create a Mental Health Model which can analyse itself
 | **mental_health_ui/** | `app.py`, `best_model.pkl`, `poly.pkl`, `scaler.pkl` | UI and pre-trained ML model files. |
 | *(Root Folder)* | `Readme.md`, `predict_mental_health.py`, `requirements.txt`, `source_code.ipynb` | Documentation, main inference script, dependencies, and code notebook. |
 
-### Report on LLM Experimentation can be seen [Here](https://docs.google.com/document/d/1DXcLIiOPVwPwLUHLI4pOqboWF2w5g5ksls4l15v-1PQ/edit?usp=sharing)
+#### Report on LLM Experimentation can be seen [Here](https://docs.google.com/document/d/1DXcLIiOPVwPwLUHLI4pOqboWF2w5g5ksls4l15v-1PQ/edit?usp=sharing)
+
+### Preprocessing Steps
+- Handling Missing Values - Missing data is imputed or removed.
+- Encoding Categorical Variables - Categorical features are converted into numerical representations using label encoding.
+- Feature Scaling - Standardization is applied to ensure uniformity across features.
+- Feature Selection - Irrelevant or redundant features are removed to optimize performance.
+- Train-Test Split - The dataset is split into training and testing subsets.
+
+### Models Used
+- The following models have been implemented and evaluated:
+
+1. Logistic Regression
+2. Random Forest Classifier
+3. Neural Network
+
+### Model Evaluation
+- Each model is evaluated using:
+
+1. Accuracy
+2. Precision, Recall, and F1-score
+3. Confusion Matrix
+4. ROC-AUC Score
+
+- To enhance interpretability, Local Interpretable Model-agnostic Explanations (LIME) is used to provide insights into individual predictions.
 
